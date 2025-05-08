@@ -1,0 +1,6 @@
+E:\Development\NED\Ransomware\Ransomware\bin\Debug\Ransomware.exe
+E:\Development\NED\Ransomware\Ransomware\bin\Debug\Ransomware.pdb
+E:\Development\NED\Ransomware\Ransomware\obj\Debug\Ransomware.csproj.AssemblyReference.cache
+E:\Development\NED\Ransomware\Ransomware\obj\Debug\Ransomware.csproj.CoreCompileInputs.cache
+E:\Development\NED\Ransomware\Ransomware\obj\Debug\Ransomware.exe
+E:\Development\NED\Ransomware\Ransomware\obj\Debug\Ransomware.pdb
