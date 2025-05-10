@@ -8,6 +8,19 @@ The entire process is showcased in a **Windows 10 virtual machine**.
 
 ---
 
+## 📚 Table of Contents
+
+* [Software & Tools Used](#-software--tools-used)
+* [Project Structure](#-project-structure)
+* [How to Use](#-how-to-use)
+* [Video Demo Highlights](#-video-demo-highlights)
+* [Deep Freeze Demonstration (2-Part Series)](#-deep-freeze-demonstration-2-part-series)
+* [Disclaimer](#-disclaimer)
+* [Contributions](#-contributions)
+* [License](#-license)
+
+---
+
 ## 📆 Software & Tools Used
 
 | Tool                           | Version                        |
@@ -18,6 +31,7 @@ The entire process is showcased in a **Windows 10 virtual machine**.
 | Kaspersky Anti-Ransomware Tool | Latest (Free Version)          |
 | C# Language                    | .NET Console App               |
 | Hypervisor                     | VMware / VirtualBox (optional) |
+| Deep Freeze                    | Latest (Standard)              |
 
 ---
 
@@ -50,8 +64,8 @@ RansomwareDemo/
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/usamazahid/DigitalForensic.git
+   cd DigitalForensic
    ```
 
 2. **Open the Project in Visual Studio**
@@ -79,7 +93,30 @@ RansomwareDemo/
 * 🔐 Detection & block by Kaspersky
 * 🔄 File rollback and recovery
 
-Watch it here: [https://youtu.be/hB4o-M3IXJU](https://youtu.be/hB4o-M3IXJU)
+🎥 [Watch it here](https://youtu.be/hB4o-M3IXJU)
+
+---
+
+## 🧊 Deep Freeze Demonstration (2-Part Series)
+
+This section demonstrates the behavior of **Deep Freeze** in protecting system drives against unwanted changes.
+
+### 🔹 Part 1: Installation & Setup
+
+📺 [Watch on YouTube](https://youtu.be/KnLWQDQDQmA)
+
+* Installing Deep Freeze on Windows 10
+* Understanding Frozen vs Thawed drives
+
+### 🔹 Part 2: File Persistence Test
+
+📺 [Watch on YouTube](https://youtu.be/rmlSk37btHA)
+
+* File created in Thawed drive persists after reboot ✅
+* File copied to Frozen drive is erased on reboot ❌
+* Demonstrates how Deep Freeze maintains system integrity
+
+> Deep Freeze is especially useful for maintaining public or lab computers in a consistent, clean state.
 
 ---
 
@@ -98,3 +135,9 @@ Pull requests are welcome for improvements, documentation, or extended simulatio
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+![GitHub Repo stars](https://img.shields.io/github/stars/usamazahid/DigitalForensic?style=social)
+![GitHub forks](https://img.shields.io/github/forks/usamazahid/DigitalForensic?style=social)
+![GitHub license](https://img.shields.io/github/license/usamazahid/DigitalForensic)
